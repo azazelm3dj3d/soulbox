@@ -1,6 +1,6 @@
 {
   "name": "soulbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Soulbox is a JavaScript library that can generate a simplistic and lightweight lightbox.",
   "main": "index.js",
   "scripts": {
