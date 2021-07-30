@@ -1,2 +1,2 @@
 # soulbox
-Soulbox is a JavaScript library for generating a simple lightbox without the need of jQuery.
+Soulbox is a JavaScript library that can generate a simplistic and lightweight lightbox.

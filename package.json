@@ -1,0 +1,22 @@
+{
+  "name": "soulbox",
+  "version": "1.0.0",
+  "description": "Soulbox is a JavaScript library that can generate a simplistic and lightweight lightbox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhostlyPy/soulbox.git"
+  },
+  "keywords": [
+    "lightbox"
+  ],
+  "author": "GhostlyPy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhostlyPy/soulbox/issues"
+  },
+  "homepage": "https://github.com/GhostlyPy/soulbox#readme"
+}
