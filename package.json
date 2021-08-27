@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GhostlyPy/soulbox.git"
+    "url": "git+https://github.com/Hifumi-Sec/soulbox.git"
   },
   "keywords": [
     "lightbox"
   ],
-  "author": "GhostlyPy",
+  "author": "Hifumi-Sec",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GhostlyPy/soulbox/issues"
+    "url": "https://github.com/Hifumi-Sec/soulbox/issues"
   },
-  "homepage": "https://github.com/GhostlyPy/soulbox#readme"
+  "homepage": "https://github.com/Hifumi-Sec/soulbox#readme"
 }
