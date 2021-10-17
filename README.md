@@ -1,9 +1,7 @@
-# soulbox
-Soulbox is a JavaScript library that can generate a simplistic and lightweight lightbox.
+# Soulbox
+
+Soulbox is a JavaScript library that can generate a simple and lightweight lightbox.
 
 ## Usage
-To be able to use the library, you will need to link directly to the module through the node_modules directory. CDN coming soon!
 
-You can view the GitHub repository here: https://github.com/Hifumi-Sec/soulbox
-
-Thank you so much for checking out my library!
+Link to the the soulbox.js & soulbox.css files in this repository. If you need an example of how to do this in HTML, check in the `/public` directory.

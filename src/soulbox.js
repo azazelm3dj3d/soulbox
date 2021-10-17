@@ -1,10 +1,10 @@
-/*****************************************************************/
-/*        Soulbox | The simplistic & lightweight lightbox!       */
-/*****************************************************************/
-/* Copyright © 2021                                              */
-/* Author: Hifumi Sec => https://github.com/Hifumi-Sec           */
-/* Open-Source Project => https://github.com/Hifumi-Sec/soulbox  */
-/*****************************************************************/
+/******************************************************************/
+/*        Soulbox | The simplistic & lightweight lightbox!        */
+/******************************************************************/
+/* Copyright © 2021                                               */
+/* Author: Hifumi-Sec => https://github.com/Hifumi-Sec            */
+/* Open-Source Project => https://github.com/Hifumi-Sec/soulbox   */
+/******************************************************************/
 
 /* Welcome to Soulbox! */
 class Soulbox {
@@ -67,16 +67,14 @@ class Soulbox {
     // Next button
     this.next = () => {
       let imgIndex = getCurrentImageIndex();
-      if (imgIndex === _this.soulArray.length - 1)
-        return;
+      if (imgIndex === _this.soulArray.length - 1) return;
       _this.soulbox(_this.soulArray[getCurrentImageIndex() + 1]);
     };
 
     // Previous button
     this.prev = () => {
       let imgIndex = getCurrentImageIndex();
-      if (imgIndex === 0)
-        return;
+      if (imgIndex === 0) return;
       _this.soulbox(_this.soulArray[getCurrentImageIndex() - 1]);
     };
 
@@ -85,12 +83,9 @@ class Soulbox {
       let overlay = document.querySelector('.soulbox-overlay');
       let image = document.querySelector('.soulbox-image');
       let controls = document.querySelector('.soulbox-controls');
-      if (overlay)
-        document.querySelector('body').removeChild(overlay);
-      if (image)
-        document.querySelector('body').removeChild(image);
-      if (controls)
-        document.querySelector('body').removeChild(controls);
+      if (overlay) document.querySelector('body').removeChild(overlay);
+      if (image) document.querySelector('body').removeChild(image);
+      if (controls) document.querySelector('body').removeChild(controls);
 
       this.isSoulBox = false;
     };
@@ -123,6 +118,11 @@ class Soulbox {
       document.querySelector('.soul-close').addEventListener('click', () => {
         _this.hideSoulbox();
       });
+
+      document.querySelector('.soulbox-overlay').addEventListener('click', () => {
+        _this.hideSoulbox();
+      });
+
       metaInfo();
     };
 
