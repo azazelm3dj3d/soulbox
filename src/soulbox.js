@@ -1,10 +1,9 @@
-/******************************************************************/
-/*        Soulbox | The simplistic & lightweight lightbox!        */
-/******************************************************************/
-/* Copyright © 2021                                               */
-/* Author: Hifumi-Sec => https://github.com/Hifumi-Sec            */
-/* Open-Source Project => https://github.com/Hifumi-Sec/soulbox   */
-/******************************************************************/
+/********************************************************************/
+/*        Soulbox | The simplistic & lightweight lightbox!          */
+/********************************************************************/
+/* Author: azazelm3dj3d (https://github.com/azazelm3dj3d)           */
+/* Learn more: https://github.com/azazelm3dj3d/soulbox              */
+/********************************************************************/
 
 /* Welcome to Soulbox! */
 class Soulbox {
